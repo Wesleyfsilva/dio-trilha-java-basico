@@ -1,18 +1,39 @@
-## Getting Started
+# ContaTerminal
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto simples em Java para interagir com o usuário via terminal, solicitando informações de uma conta bancária e retornando uma mensagem de boas-vindas com os detalhes fornecidos.
 
-## Folder Structure
+## Descrição
+O **ContaTerminal** é um programa que coleta informações básicas sobre a conta bancária de um usuário, como agência, número da conta, nome e saldo, e exibe essas informações formatadas como uma mensagem de boas-vindas.
 
-The workspace contains two folders by default, where:
+## Funcionalidades
+- Solicita e coleta informações do usuário:
+  - Nome
+  - Agência
+  - Conta
+  - Saldo
+- Exibe uma mensagem personalizada de boas-vindas com os dados fornecidos pelo usuário.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Requisitos
+- Java JDK 8 ou superior
+- IDE de desenvolvimento (opcional)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Como Executar
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seuusuario/dio-trilha-java-basico.git
+    ```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd dio-trilha-java-basico/ContaTerminal
+    ```
 
-## Dependency Management
+3. Compile o código:
+    ```bash
+    javac ContaTerminal.java
+    ```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. Execute o programa:
+    ```bash
+    java ContaTerminal
+    ```
